@@ -1,0 +1,113 @@
+.aboutus-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 127%;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.about-p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 159.5%;
+    color: #FFFFFF;
+}
+.mission-wrapper{
+    background-color: #E4F2FF;
+    padding: 16% 0 0%;
+    display: flex;
+    min-height: 740px;
+    flex-direction: row;
+}
+.mission-content-wrapper{
+        height: auto;
+        width: 50%;
+        float: left;
+        align-self: center;
+}
+.mission-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 120.5%;
+    color: #185A97;
+}
+.mission-inner-content {
+    width: 76%;
+    margin:auto;
+}
+.mission-sub-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150.5%;
+    color: #185A97;
+    margin-bottom: 0;
+}
+.mission-content{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 139.5%;
+    color: #185A97;
+    margin-bottom: 15px;
+}
+
+.our-vision-section{
+    background-color: #fff;
+    padding: 12% 0 12%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.our-mission-content{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 139%;
+    color: #185A97;
+}
+
+.what-we-do-heading{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 120.5%;
+    color: #185A97;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.what-we-do-wrapper{
+        background: #E4F2FF;
+        padding: 0% 0px 0%;
+        float: left;
+        width: 100%;
+}
+.what-we-do-inner-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+.what-we-do-list-wrapper{
+    margin-left: 24px;
+    align-self: center;
+    width: 42%;
+}
+.what-we-do-list-wrapper ul li{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 164.5%;
+    color: #185A97;
+}
+

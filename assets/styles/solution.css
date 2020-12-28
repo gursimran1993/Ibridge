@@ -1,0 +1,226 @@
+.solution-section{
+    background: #fff;
+    padding: 8% 0px;
+    float: left;
+    width: 100%;
+}
+.solution-banner-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 120%;
+    color: #D1E9FF;
+}
+.solution-banner-sub-heading{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 121%;
+    letter-spacing: -0.01em;
+    color: #D1E9FF;
+    font-family: 'Roboto Slab', serif;
+}
+.solution-heading{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 121%;
+    letter-spacing: -0.01em;
+    color: #185A97;
+}
+.solution-tab-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.solution-tab-wrapper  .solution-tab{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 121%;
+        letter-spacing: -0.01em;
+        color: #185A97;
+        cursor: pointer;
+        padding-right: 5%;
+    }
+    .solution-tab-wrapper .active{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 121%;
+        letter-spacing: -0.01em;
+        color: #185A97;
+    }
+    .solution-tab-wrapper .active:after {
+        content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: 50%; /* Change this to whatever width you want. */
+        padding-top: 10px; /* This creates some space between the element and the border. */
+        border-bottom: 4px solid #D1E9FF; /* This creates the border. Replace black with whatever color you want. */
+    }
+    .solution-tab-content{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 156%;
+        color: #185A97;
+    }
+    .solution-call-us-now{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156%;
+        color: #185A97;
+    }
+    .solution-call-us-now-bold{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 156%;
+        color: #185A97;
+    }
+    .what-next{
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 121%;
+        letter-spacing: -0.01em;
+        color: #185A97;
+    }
+    .solution-buttons-wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+    .get-in-touch-sl{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .apply-for-mortgage-sl{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-sub-text{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 156%;
+        text-align: center;
+        color: #185A97;
+    }
+
+    .solution-query{
+        background: #E4F2FF;
+        padding: 13% 0px 0px;
+        float: left;
+        width: 100%;
+    }
+    .mortgage-calculators{
+        background: #fff;
+        float: left;
+        width: 100%;
+    }
+    .mortgage-calculators-wrapper{
+        background: #fff;
+        padding: 8% 0px 8%;
+        width: 100%;
+    }
+    .prefer-calling{
+        background: #185A97;
+        border-radius: 0px 0px 10px 0px;
+    }
+    .prefer-calling p{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 127.5%;
+        color: #FFFFFF;
+        padding: 10px 18px;
+    }
+    .calc-box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: 2px solid #185A97;
+        box-sizing: border-box;
+        border-bottom: 0;
+        border-radius: 10px 10px 0px 0px;
+        padding: 40px;
+    }
+    .icon-box{
+        padding: 30px;
+        background: #D1E9FF;
+        border-radius: 10px;
+        margin-right:30px
+    }
+    .calc-box-heading{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 121%;
+        letter-spacing: -0.01em;
+        color: #185A97;
+    }
+
+    .calc-box-content{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 152%;
+        color: #185A97;
+    }
+    .calc-box-button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: 2px solid #185A97;
+        box-sizing: border-box;
+        border-radius: 0px 0px 10px 10px;
+        padding: 15px;
+        background: #185A97;
+    }
+    .calc-box-button p{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #FFFFFF;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .try-our-sub-heading{
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 121%;
+        letter-spacing: -0.01em;
+        color: #185A97;
+        margin-bottom: 2px;
+    }
+    .try-our-heading{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 127.5%;
+        color: #185A97;
+    }

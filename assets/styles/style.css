@@ -1,0 +1,622 @@
+
+.header{
+    background-color:#154E84;
+}
+.container{
+    max-width: 1300px;
+}
+.nav-link{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 127.5%;
+color: #D1E9FF !important;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    font-size: 18px;
+}
+.img-wrapper{
+    width: 55%;
+    float: right;
+}
+.img-wrapper img{
+    position: absolute;
+    right: 0;
+    width: 55%;
+    float: right;
+}
+.home-banner-section{
+    background-color: #154E84;
+    padding: 5% 0 0%;
+    display: flex;
+    min-height: 800px;
+    flex-direction: row;
+    width: 100%;
+}
+.home-content{
+    height: auto;
+    width: 45%;
+    float: left;
+    align-self: center;
+}
+.home-inner-content{
+    margin: auto;
+    width: 64%;
+}
+.home-banner-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 67px;
+    line-height: 120%;
+    color: #D1E9FF;
+    position: absolute;
+    width: 50%;
+    z-index: 9;
+    top: 52%;
+}
+.home-banner-sub-heading{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 121%;
+    letter-spacing: -0.01em;
+    color: #D1E9FF;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.banner-wrapper{
+    min-height: 480px;
+}
+.content-area-wrapper{
+    float: left;
+    height: auto;
+    width: 55%;
+    position: relative;
+    padding: 32px;
+}
+.content-inner-wrapper{
+    float: right;
+    height: auto;
+    width: 98%;
+    position: relative;
+    right: -21%;
+    z-index: 9;
+}
+.image-area-wrapper{
+    float: left;
+    height: auto;
+    width: 45%;
+    position: relative;
+}
+.content-area{
+    float: left;
+    height: 330px;
+    width: 100%;
+    position: relative;
+}
+.banner-section-text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 67px;
+    line-height: 108.5%;
+    color: #D1E9FF;
+    position: absolute;
+    text-align: left;
+    top: 48px;
+}
+.mortgage-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    z-index: 9;
+    line-height: 108.5%;
+    width: 800px;
+    position: absolute;
+    color: #D1E9FF;
+}
+.mortgage-sub-text{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 121%;
+    letter-spacing: -0.01em;
+    color: #D1E9FF;
+}
+.btn-outline-ibridge {
+    color: #D1E9FF;
+    border-color: #D1E9FF;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 10px 0px;
+    font-size: 24px;
+    padding: 8px 30px;
+}
+.btn-download{
+    color: #185A97;
+    background-color: #D1E9FF;
+    border-radius: 10px;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+.btn-outline-solution{
+    color: #185A97;
+    border-color: #185A97;
+    margin: 10px 0px;
+    border: 2px solid;
+    font-size: 24px;
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 8px 24px;
+}
+.btn-outline-who{
+    color: #185A97;
+    border-color: #185A97;
+    margin-top: 28px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.image-inner-wrapper{
+       position: absolute;
+       top: 0px;
+       right: -48px;
+}
+.image-inner-wrapper img{
+    height: inherit;
+    width: inherit;
+}
+
+
+.who-we-are{
+    background-color: #E4F2FF;
+    padding: 24% 0 10%;
+    float: left;
+    display: flex;
+    width: 100%;
+}
+.inner-who-we-are{
+    width:100%;
+    float: left;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+.who-image-area{
+    float: left;
+}
+.who-content-area{
+    width: 60%;
+    float: left;
+    background-color:#E4F2FF;
+    height: 600px;
+    padding: 20px;
+}
+
+.who-image-area img{
+    height: inherit;
+    width: fit-content;
+}
+.who-we-are-heading{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    color: #185A97;
+}
+.who-content{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 124%;
+color: #185A97;
+}
+
+/*calculator area*/
+.calculator{
+    padding: 10% 0px;
+    float: left;
+    width: 100%;
+}
+.get-in-touch-wrapper{
+    display: flex;
+    flex-direction:row;
+}
+
+.calculator-heading{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    color: #185A97;
+    margin-bottom: 40px;
+}
+.list-wrapper{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.calculator-number{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 60px;
+    line-height: 116.5%;
+    color: #185A97;
+    margin-right: 10%;
+    align-self: center;
+}
+.calc-icon{
+    width: 95px;
+    height: 95px;
+    background: #D1E9FF;
+    border-radius: 20px;
+}
+.calc-icon img{
+    height: inherit;
+    width: inherit;
+}
+.icon-heading-wrapper{
+    margin-left: 8%;
+    align-self: center;
+}
+.icon-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 121%;
+    color: #185A97;
+}
+.icon-sub-heading{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 121%;
+    color: #185A97;
+}
+.mortgage-form{
+
+    border: 2px solid #185A97;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+.mortgage-calculator-heading{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 121%;
+    color: #185A97;
+}
+.mortgage-calculator-content{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 156%;
+    color: #185A97;
+}
+.calculator-text-form{
+    background: rgba(209, 233, 255, 0.5);
+    border-radius: 10px;
+    border: none;
+}
+.calculator-text-label{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152.5%;
+    color: #185A97;
+}
+.btn-outline-calculator{
+    color: #185A97;
+    border: 2px solid #185A97;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 8px 20px;
+}
+
+/*talk us*/
+.talk-us{
+    background: #E4F2FF;
+    padding: 8% 0px;
+    float: left;
+    width: 100%;
+}
+.talk-us-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 127.5%;
+    color: #185A97;
+}
+.talk-us-sub-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 156%;
+    color: #185A97;
+}
+
+.talk-us-form-wrapper .nav-tabs{
+    border-bottom: 0px;
+}
+.talk-us-form-wrapper .nav-link {
+    background: #CCE6FF !important;
+    border-radius: 10px 10px 0px 0px !important;
+    padding: 12px 25px  !important;
+    margin-right:25px !important;
+    color:#185A97 !important;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+.talk-us-form-wrapper .nav-link.active{
+    background: #CCE6FF !important;
+    border-bottom:2px solid #185A97 !important;
+    border-color: transparent transparent #185A97 !important;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+}
+.contact-form{
+    margin-top: 25px;
+    max-width: 500px;
+}
+.contact-text-form{
+    background: #fff;
+    border-radius: 10px;
+    border: none;
+}
+.contact-us-image img{
+    position: absolute;
+}
+
+/* testimonial */
+
+.testimonial{
+    background: #185A97;
+    float: left;
+    width: 100%;
+}
+.testimonial-wrapper{
+    padding: 11% 0px 8%;
+    float: left;
+    width: 100%;
+}
+.testimonial-heading{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.carousel-main-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.carousel-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    position: relative;
+}
+.carousel-icon-right{
+    margin-left: 10px;
+    width: 300px;
+}
+.carousel-icon-right img{
+    position: absolute;
+    bottom: 0;
+}
+.carousel-icon-left{
+    margin-right: 10px;
+}
+.carousel-content{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 143.5%;
+color: #FFFFFF;
+margin-top: 20px;
+}
+.testimonial-user-name{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.footer{
+    padding: 3% 0px;
+    background-color: #154E84;
+    width: 100%;
+    float: left;
+}
+.mid-logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.logo-title{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.footer-content-heading{
+    font-family: Roboto Slab;
+    font-style: normal;
+    width: 100%;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    color: #D1E9FF;
+}
+.footer-content-p{
+    font-family: Poppins;
+    font-style: normal;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 173%;
+    color: #D1E9FF;
+    margin-bottom: 3px;
+}
+.footer-content-p a{
+    color: #D1E9FF;
+    text-decoration: none;
+}
+.footer-input{
+    background: #D1E9FF;
+    border-radius: 10px;
+    border: 0;
+}
+.footer-btn-outline{
+    color: #D1E9FF;
+    border-color: #D1E9FF;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 3px 31px;
+}
+.brokerage-number{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    color: #E4F2FF;
+    margin-bottom: 0px;
+}
+.social-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+@media screen and (max-width:1300px){
+    .home-banner-section{
+        background-color: #154E84;
+        padding: 5% 0 0%;
+        display: flex;
+        min-height: 800px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .home-content{
+        height: auto;
+        width: auto;
+        float: left;
+        align-self:flex-start;
+    }
+    .home-inner-content{
+        width: 55%;
+        margin-left: 56px;
+        float: left;
+    }
+    .home-banner-heading{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 46px;
+        line-height: 125%;
+        color: #D1E9FF;
+        position: static;
+        width: auto;
+        z-index: 9;
+    }
+    .home-banner-sub-heading{
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 121%;
+        letter-spacing: -0.01em;
+        color: #D1E9FF;
+        font-family: 'Roboto Slab', serif;
+    }
+    .who-content-area{
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+        padding: 70px;
+    }
+    .btn-outline-who{
+        color: #185A97;
+        border-color: #185A97;
+        margin-top: 28px;
+        border: 2px solid;
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 40px;
+        padding: 20px 44px;
+    }
+    .inner-who-we-are{
+        flex-direction: column;
+    }
+    .who-we-are-heading{
+        display: none;
+    }
+    .who-image-area img{
+        width: 80%;
+    }
+    .get-in-touch-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .who-content{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 61px;
+        line-height: 124%;
+        color: #185A97;
+    }
+    .contact-us-image{
+        display: none;
+    }
+    .img-wrapper{
+        width: 100% !important;
+        float: right;
+    }
+    .img-wrapper img{
+        position: relative;
+        right: 0;
+        width: 81%;
+        bottom: -130px;
+        float: right;
+    }
+}

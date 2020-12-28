@@ -1,0 +1,208 @@
+.inv-banner-section{
+    background-color: #154E84;
+    padding: 5% 0 0%;
+    display: flex;
+    min-height: 800px;
+    flex-direction: row;
+    width: 100%;
+}
+.inv-content{
+    height: auto;
+    width: 45%;
+    float: left;
+    align-self: center;
+}
+.inv-inner-content{
+    margin: auto;
+    width: 70%;
+}
+
+
+.private-mortgage{
+    background-color: #fff;
+    padding: 0% 0 5%;
+    display: flex;
+    min-height: 740px;
+    flex-direction: row;
+}
+.private-img-wrapper{
+    width: 45% !important;
+}
+
+.private-content-wrapper{
+    height: auto;
+    width: 55%;
+    float: left;
+    align-self: center;
+    padding-top: 10%;
+}
+.private-inner-content{
+    margin-left: 20px;
+    width: 85%;
+    float: left;
+}
+.private-banner-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 127%;
+    color: #185A97;
+    margin-bottom: 4px;
+}
+
+.private-content{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 159.5%;
+    color: #185A97;
+}
+.video-section{
+    background-color: #fff;
+    padding: 8% 0 8%;
+    width: 100%;
+}
+.video-section-sub-heading{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 121%;
+    letter-spacing: -0.01em;
+    color: #185A97;
+}
+.video-section-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 129%;
+    color: #185A97;
+}
+
+.video-user-name{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    color: #185A97;
+}
+.video-user-role{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    color: #185A97;
+}
+
+.work-with-us-section{
+    background-color: #E4F2FF;
+    padding: 5% 0 15%;
+    width: 100%;
+}
+.work-with-us-icon-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.work-with-us-icon-box{   
+    background-color: #fff;
+    min-height: 280px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.work-with-icon-title p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 122.5%;
+    text-align: center;
+    color: #185A97;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+.work-with-us-title p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 159.5%;
+    color: #185A97;
+}
+.work-with-us-cont-wrapper{
+    background-color: #CBE6FF;
+    align-items: center;
+    flex-direction: column;
+    min-height: 280px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.work-with-us-cont{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 155.5%;
+    letter-spacing: -0.01em;
+    color: #185A97;
+    padding: 30px;
+}
+
+
+.creat-a-query{
+    background: #fff;
+    padding: 0% 0px 0%;
+    float: left;
+    width: 100%;
+}
+.query-img-wrapper{
+    position: absolute;
+    top: -10%;
+}
+.form-area-wrapper{
+    padding: 104px 0px 104px;
+    max-width: 650px;
+    margin: auto;
+}
+.inv-text-form{
+    background: #E4F2FF;
+    border-radius: 10px;
+    border: 0;
+}
+.prefer-calling-inv {
+    background: #E4F2FF;
+    border-radius: 0px 0px 10px 0px;
+}
+.prefer-calling-inv p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 127.5%;
+    padding: 10px 18px;
+    color: #185A97;
+    text-align: center;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .query-img-wrapper{
+        position: unset;
+    }
+    .form-area-wrapper{
+
+    }
+
+}

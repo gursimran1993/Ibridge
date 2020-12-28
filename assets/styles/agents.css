@@ -1,0 +1,151 @@
+.agent-banner-section{
+    background-color: #154E84;
+    padding: 5% 0 0%;
+    display: flex;
+    min-height: 900px;
+    flex-direction: row;
+    width: 100%;
+}
+.agent-content{
+    height: auto;
+    width: 50%;
+    float: left;
+    align-self: center;
+}
+.agent-inner-content{
+    margin: auto;
+    width: 92%;
+}
+.agent-img-wrapper{
+    width: 50% !important;
+}
+
+.agent-business{
+    background-color: #E4F2FF;
+    padding: 24% 0 0%;
+    display: flex;
+    min-height: 740px;
+    flex-direction: row;
+}
+
+.business-mng-heading{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 121%;
+    letter-spacing: -0.01em;
+    color: #185A97;
+    margin-bottom: 25px;
+}
+
+.business-content-wrapper{
+        height: auto;
+        width: 50%;
+        float: left;
+        padding-top: 4%;    
+}
+.business-inner-content {
+    width: 80%;
+    margin-left: 35px;
+}
+
+
+.options-we-provide{
+    background-color: #fff;
+    padding: 9% 0 5%;
+    display: flex;
+    min-height: 900px;
+    flex-direction: row;
+    width: 100%;
+}
+
+.agent-query{
+    background: #E4F2FF;
+    padding: 8% 0px 8%;
+    float: left;
+    width: 100%;
+}
+.agent-form-wrapper{
+        padding: 15% 0px 0%;
+        max-width: 550px;
+        margin: auto;
+        border: 2px solid #185A97;
+        padding: 30px;
+        border-radius: 10px;
+}
+.agent-form-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 127.5%;
+    color: #185A97;
+}
+.agent-form-sub-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 156%;
+    color: #185A97;
+}
+.agent-text-form {
+    background: #fff;
+    border-radius: 10px;
+    border: 0;
+}
+
+.finacial-solution-heading{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 121%;
+    letter-spacing: -0.01em;
+    color: #185A97;
+}
+.resd-com-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 121%;
+    letter-spacing: -0.01em;
+    color: #185A97;
+}
+.residential-text-bold{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 121%;
+    letter-spacing: -0.01em;
+    color: #185A97;
+    margin-right: 30px;
+}
+.what-we-do-form-heading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 127.5%;
+    color: #185A97;
+}
+.what-we-do-form-sub-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 156%;
+    color: #185A97;
+}
+.agent-sub-heading{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 127.5%;
+    color: #185A97;
+    margin-bottom: 2px;
+}
